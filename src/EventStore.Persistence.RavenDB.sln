@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore.Persistence.Rave
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore.Persistence.RavenPersistence.Wireup", "proj\EventStore.Persistence.RavenPersistence.Wireup\EventStore.Persistence.RavenPersistence.Wireup.csproj", "{A99B2B16-B6BE-4B83-ACE0-56A734DB9AEF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proj", "proj", "{59B395E4-9921-47C4-83B6-1C036E46E568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9E7FD69-0818-48CA-9249-5387739E1B6A} = {59B395E4-9921-47C4-83B6-1C036E46E568}
+		{A99B2B16-B6BE-4B83-ACE0-56A734DB9AEF} = {59B395E4-9921-47C4-83B6-1C036E46E568}
 	EndGlobalSection
 EndGlobal
